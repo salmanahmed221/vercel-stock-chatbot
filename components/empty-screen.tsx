@@ -25,26 +25,33 @@ export function EmptyScreen() {
       <div className="flex flex-col gap-2 rounded-lg border bg-background p-8">
         <h1 className="text-lg font-semibold">Welcome to Stock AI Chatbot!</h1>
         <p className="leading-normal text-muted-foreground">
-          This is an AI chatbot app template built with{' '}
-          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink>, the{' '}
+          Introducing StockAI Chatbot, your intelligent companion in the world
+          of stock trading and investment. StockAI is a cutting-edge chatbot
+          powered by advanced artificial intelligence algorithms, designed to
+          provide you with real-time insights, personalized recommendations, and
+          comprehensive analysis tailored to your investment needs.
+        </p>
+        {/* <p className="leading-normal text-muted-foreground">
+          This is an AI chatbot app template built with
+          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink>, the
           <ExternalLink href="https://sdk.vercel.ai">
             Vercel AI SDK
           </ExternalLink>
-          , and{' '}
+          , and
           <ExternalLink href="https://vercel.com/storage/kv">
             Vercel KV
           </ExternalLink>
           .
-        </p>
-        <p className="leading-normal text-muted-foreground">
-          It uses{' '}
+        </p> */}
+        {/* <p className="leading-normal text-muted-foreground">
+          It uses
           <ExternalLink href="https://vercel.com/blog/ai-sdk-3-generative-ui">
             React Server Components
-          </ExternalLink>{' '}
+          </ExternalLink>
           to combine text with generative UI as output of the LLM. The UI state
           is synced through the SDK so the model is aware of your interactions
           as they happen.
-        </p>
+        </p> */}
       </div>
     </div>
   )
